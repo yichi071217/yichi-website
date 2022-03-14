@@ -6,16 +6,18 @@ export const Header = (props) => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-8 col-md-offset-2 intro-text'>
-                <h1>
+                <h3>
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>
-                </h1>
+                </h3>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href='#features'
-                  className='btn btn-custom btn-lg page-scroll'
+                  href='https://forms.gle/TnQHBqzJR2haqXo7A'
+                  className='btn btn-custom btn-lg'
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  Learn More
+                  申請試用
                 </a>{' '}
               </div>
             </div>

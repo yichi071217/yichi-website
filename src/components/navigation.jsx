@@ -15,9 +15,10 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
-          </a>{' '}
+          {/* <a className='navbar-brand page-scroll' href='#page-top'>
+            
+          </a>{' '} */}
+          <img src="../img/logo.png" className="logo" alt="logo"/>{' '}
         </div>
 
         <div
@@ -27,37 +28,37 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                關於
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                功能
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+                產品特色
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                養殖故事
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                相關報導
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#team' className='page-scroll'>
-                Team
+                聯絡我們
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+              聯絡我們
               </a>
             </li>
           </ul>
