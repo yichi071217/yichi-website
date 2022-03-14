@@ -4,19 +4,35 @@
     "paragraph": "害怕天候越來越不穩定，找不出作物死亡原因？讓漪七一起來跟您找答案！"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+    "paragraph": "蛤蜊湯越賣越貴，但養殖戶還是賺不到錢?",
+    "p1": [
+      "自2016年起，氣候異常、環境污染",
+      "導致文蛤非季節性大規模死亡事件頻繁，",
+      "即便養殖經驗30、40年以上的資深養殖戶，也紛紛感歎文蛤越來越難養"
     ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "p2": [
+      "不忍父執輩的心血付之一炬，我們期望運用科技的力量",
+      "將氣象數據用最簡單的表達方式，讓養殖者掌握漁塭變化，",
+      "將資訊結合自己的養殖經驗，成為最強的養殖方法"
+    ],
+    "readMore": {
+      "title": "關於我們：這一段簡述緣起、目標",
+      "subTitle": "蛤蜊湯越賣越貴，但養殖戶還是賺不到錢?",
+      "p1": [
+        "養殖，是靠天吃飯的產業",
+        "而近幾年起，氣候異常、環境污染",
+        "導致文蛤非季節性大規模死亡事件頻繁，",
+        "即便養殖經驗40、50年以上的資深養殖戶，也紛紛感歎文蛤越來越難養",
+        "連帶導致文蛤價格上漲"
+      ],
+      "p2": [
+        "自小在魚塭長大的團隊召集人育承，目睹父執輩沒有及時應變天候變化的慘烈損失，",
+        "了解到養殖者不是缺乏經驗與知識，而是需要掌握更多未知的天候風險",
+        "於是興起了運用政府開放資料，採用養殖者最關心的氣象與水文資訊，來建立一套文蛤死亡風險預測模型的構",
+        "讓養殖者只要透過手機，就能即時掌握天候資訊與漁塭變化",
+        "最終希望養殖者能將資訊結合自身的豐富經驗，打造最強的養殖方法！"
+      ]
+    }
   },
   "Gallery": [
     {
