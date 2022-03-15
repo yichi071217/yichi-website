@@ -292,6 +292,28 @@ header .intro-text {
   align-items: center;
 }
 
+@media (max-width: 375px) {
+  .intro h3 {
+
+    font-size: 35px;
+
+  }
+
+  .intro p {
+
+    font-size: 18px;
+
+  }
+
+  header .intro-text {
+    padding-bottom: 30em;
+  }
+
+  .btn-custom {
+    top: 19.5em;
+  }
+}
+
 @media (max-width: 1200px) {
   header .intro-text {
 
@@ -303,6 +325,19 @@ header .intro-text {
     top: 20.5em;
   }
 }
+
+@media (min-width: 1700px) {
+  header .intro-text {
+
+    padding-bottom: 34em;
+
+  }
+
+  .btn-custom {
+    top: 24.5em;
+  }
+}
+
 
 /* header .intro-text {
   padding-top: 350px;
@@ -386,7 +421,7 @@ header .intro-text {
   padding: 0;
 }
 
-#about .paragraph{
+#about .paragraph {
   margin-bottom: 2em;
 }
 
