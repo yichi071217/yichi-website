@@ -50,9 +50,7 @@ export const About = (props) => {
               <h3>{props.data
                   ? props.data.readMore.title
                   : "loading..."}</h3>
-              <h4>{props.data
-                  ? props.data.readMore.subTitle
-                  : "loading..."}</h4>
+              
               <div className="paragraph">{props.data
                   ? props
                     .data
