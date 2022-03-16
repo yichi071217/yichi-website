@@ -37,15 +37,15 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='#features' className='page-scroll'>
                 產品特色
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#portfolio' className='page-scroll'>
                 養殖故事
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#testimonials' className='page-scroll'>
                 相關報導

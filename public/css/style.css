@@ -292,51 +292,7 @@ header .intro-text {
   align-items: center;
 }
 
-@media (max-width: 420px) {
-  .intro h3 {
 
-    font-size: 35px;
-
-  }
-
-  .intro p {
-
-    font-size: 18px;
-
-  }
-
-  header .intro-text {
-    padding-bottom: 30em;
-  }
-
-  .btn-custom {
-    top: 19.5em;
-  }
-}
-
-@media (max-width: 1200px) {
-  header .intro-text {
-
-    padding-bottom: 36em;
-
-  }
-
-  .btn-custom {
-    top: 20.5em;
-  }
-}
-
-@media (min-width: 1700px) {
-  header .intro-text {
-
-    padding-bottom: 34em;
-
-  }
-
-  .btn-custom {
-    top: 24.5em;
-  }
-}
 
 
 /* header .intro-text {
@@ -345,22 +301,7 @@ header .intro-text {
   text-align: center;
 } */
 /* Features Section */
-#features {
-  background: #f6f6f6;
-}
 
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
 
 /* About Section */
 #about {
@@ -428,8 +369,9 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  /* background: linear-gradient(to right, #cacaca 0%, #f5f5f5 100%); */
+  background: #f6f6f6;
+  color: #000;
 }
 
 #services .service-desc {
@@ -437,13 +379,13 @@ header .intro-text {
 }
 
 #services h2 {
-  color: #fff;
+  color: #000;
 }
 
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(to right, rgb(92, 169, 251) 0%, rgb(99, 114, 255) 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -451,35 +393,69 @@ header .intro-text {
   left: 50%;
 }
 
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+#services .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#services img {
+  width: 70%;
 }
 
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #000;
 }
 
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  font-size: medium;
 }
 
 #services .service-desc {
   margin-bottom: 40px;
 }
 
+
+/* Features section */
+#features {
+  padding: 100px 0;
+  background: #fff;
+}
+
+#features p {
+  font-size: medium;
+}
+
+
+#features .gif {
+  width: 30%;
+  margin: 1em 2em;
+}
+
+#features .content {
+  display: inline-flex;
+}
+
+#features .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#features .item img{
+  width: 30%;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
 }
+
+
 
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -496,7 +472,7 @@ header .intro-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
-  color: #fff;
+  color: #000;
   background: linear-gradient(to right,
       rgba(99, 114, 255, 0.8) 0%,
       rgba(92, 169, 251, 0.8) 100%);
@@ -509,7 +485,7 @@ header .intro-text {
 
 .hover-bg .hover-text>h4 {
   opacity: 0;
-  color: #fff;
+  color: #000;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
@@ -770,8 +746,74 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+
+
+@media (max-width: 420px) {
+  .intro h3 {
+
+    font-size: 35px;
+
+  }
+
+  .intro p {
+
+    font-size: 18px;
+
+  }
+
+  header .intro-text {
+    padding-bottom: 30em;
+  }
+
+  .btn-custom {
+    top: 19.5em;
+  }
+
+  
+
+  
+}
+
+
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+
+  
+}
+
+@media (max-width: 990px) {
+  #features .content {
+    display: block;
+  }
+
+  #features .gif {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  header .intro-text {
+
+    padding-bottom: 36em;
+
+  }
+
+  .btn-custom {
+    top: 20.5em;
+  }
+}
+
+@media (min-width: 1700px) {
+  header .intro-text {
+
+    padding-bottom: 34em;
+
+  }
+
+  .btn-custom {
+    top: 24.5em;
   }
 }

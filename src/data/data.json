@@ -33,8 +33,7 @@
       ]
     }
   },
-  "Gallery": [
-    {
+  "Gallery": [{
       "title": "Project Title",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
@@ -80,40 +79,32 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+  "Services": [{
+      "img": "img/service/weather.png",
+      "imgHover": "img/service/weather-h.png",
+      "name": "關鍵水文",
+      "text": "即時顯示養殖戶日常觀測、所在地之氣象與水文數據"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/service/chart.png",
+      "imgHover": "img/service/chart-h.png",
+      "name": "即時數據",
+      "text": "針對養殖戶關心的因子，即時顯示數據變化"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/service/future.png",
+      "imgHover": "img/service/future-h.png",
+      "name": "風險警示",
+      "text": "以「顏色警示」簡易表達方式，快速讓養殖者了解當日文蛤死亡風險"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/service/record.png",
+      "imgHover": "img/service/record-h.png",
+      "name": "生長紀錄",
+      "text": "隨時記錄養殖池生長情況、投料紀錄，方便管理作業"
     }
   ],
-  "Testimonials": [
-    {
+  "Testimonials": [{
       "img": "img/testimonials/01.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
@@ -144,8 +135,7 @@
       "name": "Johnathan Doe"
     }
   ],
-  "Team": [
-    {
+  "Team": [{
       "img": "img/team/01.jpg",
       "name": "John Doe",
       "job": "Director"
@@ -174,26 +164,29 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  "Features": {
+
+    "left": [{
+        "icon": "img/features/ICON-02.png",
+        "title": "簡單易懂",
+        "text": "像翻日曆一樣，快速掌握天氣資訊與魚池情況，不出門也能知天下事！"
+      },
+      {
+        "icon": "img/features/ICON-04.png",
+        "title": "記錄保存",
+        "text": "環保不砍樹，還可以保存一輩字！不管是用打字、語音輸入攏欸通，想到就隨時記錄，還可以翻回去看過去魚塭情況"
+      }
+    ],
+    "right": [{
+        "icon": "img/features/ICON-05.png",
+        "title": "即時通知",
+        "text": "免煩惱！睡覺或出去玩，一有情況都可以即時通知你"
+      },
+      {
+        "icon": "img/features/ICON-03.png",
+        "title": "直覺操作",
+        "text": "操作簡單，只要點點手指頭就掌握今天/過去/未來的動態"
+      }
+    ]
+  }
 }
