@@ -431,13 +431,14 @@ header .intro-text {
 }
 
 
-#features .gif {
+#features .appDemo {
   width: 30%;
   margin: 1em 2em;
 }
 
 #features .content {
   display: inline-flex;
+  justify-content: center;
 }
 
 #features .col {
@@ -447,7 +448,7 @@ header .intro-text {
 }
 
 #features .item img{
-  width: 30%;
+  width: 50%;
 }
 
 /* Portfolio Section */
@@ -789,7 +790,7 @@ label {
     display: block;
   }
 
-  #features .gif {
+  #features .appDemo {
     width: 60%;
   }
 }

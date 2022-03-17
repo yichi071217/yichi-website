@@ -6,8 +6,8 @@ export const Features = (props) => {
           <h2>產品特色</h2>
           <h3>看手機，就像在巡視魚塭一樣!</h3>
         </div>
-        <div className='content'>
-          <div className="col">
+        <div className='row content'>
+          <div className="col-md-3 col">
           {props.data
             ? props
               .data.left
@@ -23,8 +23,8 @@ export const Features = (props) => {
               ))
             : 'loading'}
           </div>
-          <img src="img/features/app-demo.gif" alt="appDemo" className="gif"/>
-          <div className="col">
+          <img src="img/features/app-demo.png" alt="appDemo" className="appDemo col-md-4"/>
+          <div className="col-md-3 col">
           {props.data
             ? props
               .data.right
