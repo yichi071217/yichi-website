@@ -104,36 +104,43 @@
       "text": "隨時記錄養殖池生長情況、投料紀錄，方便管理作業"
     }
   ],
-  "Testimonials": [{
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+  "News": [{
+      "img": "img/news/news1.jpg",
+      "title": "民生公共物聯網競賽結果公布 文蛤智慧養殖系統勇奪300萬獎金",
+      "abstract": "獲得首獎殊榮的團隊「漪七」建立了一套文蛤異常產量預警與行情分析系統，期望提供養殖戶準確的風險偵測與預警，降低災損風險，並穩定或提升其經濟收益。",
+      "source": "中央社",
+      "link": "https://howlife.cna.com.tw/life/20201208s003.aspx"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/news/news2.jpg",
+      "title": "善用民生公共物聯網資源 漪七助養殖業邁向轉型之路",
+      "abstract": "漪七數位科技創辦人蔡育承指出，一套合宜的數位工具，可減少農漁產業的日常工作負擔，如國研院國網中心的民生公共物聯網資料服務平台，即是一套非常有效率的解決方案。",
+      "source": "Digitimes",
+      "link": "https://www.digitimes.com.tw/iot/article.asp?cat=130&cat1=40&cat2=140&id=0000623645_7T55YSMA579M7346JQQKH"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/news/news5.jpg",
+      "title": "🏆優秀新創團隊 – 粉蟯漁民曆",
+      "abstract": "",
+      "source": "民生公共物聯網",
+      "link": "https://d.facebook.com/CivilIoTTaiwan/photos/a.732948520390096/1605020196516253/?type=3&source=48"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/news/news3.jpg",
+      "title": "民生公共物聯網競賽出爐　文蛤智慧養殖勇奪300萬獎金",
+      "abstract": "民生公共物聯網競賽出爐　文蛤智慧養殖勇奪300萬獎金",
+      "source": "三立新聞",
+      "link": "https://www.youtube.com/watch?v=LrluZc6zabM"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/news/news4.jpg",
+      "title": "民生公共物聯網 資料應用-粉蟯漁民曆",
+      "abstract": "",
+      "source": "社團法人臺灣防災產業協會",
+      "link": "https://zh-cn.facebook.com/CivilIoTTaiwan/posts/1394839554200986/"
     }
+    
+    
   ],
   "Team": [{
       "img": "img/team/01.jpg",
@@ -159,10 +166,9 @@
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "yichi071217@gmail.com",
+    "facebook": "https://reurl.cc/QjA85o",
+    "logo": "img/logo-02.png"
   },
   "Features": {
 
@@ -174,7 +180,7 @@
       {
         "icon": "img/features/ICON-04.png",
         "title": "記錄保存",
-        "text": "環保不砍樹，還可以保存一輩字！不管是用打字、語音輸入攏欸通，想到就隨時記錄，還可以翻回去看過去魚塭情況"
+        "text": "環保不砍樹，還可以保存一輩子！不管是用打字、語音輸入攏欸通，想到就隨時記錄，還可以翻回去看過去魚塭情況"
       }
     ],
     "right": [{
