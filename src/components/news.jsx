@@ -11,14 +11,14 @@ export const News = (props) => {
               .data
               .map((d, i) => (
 
-                <div className='col-md-4 col-sm-6 col-xs-12'>
+                <div className='col-md-4 col-sm-6 col-xs-12' key={`${i}`}>
                   <div className='news'>
                     <div className='news-image'>
                       {' '}
-                      <a href={d.link} key={`${d.title}-${i}`} target="_blank" rel="noreferrer"><img src={d.img} alt=''/></a>{' '}
+                      <a href={d.link} key={`img-${i}`} target="_blank" rel="noreferrer"><img src={d.img} alt=''/></a>{' '}
                     </div>
                     <div className='news-content'>
-                      <a href={d.link} key={`${d.title}-${i}`}>
+                      <a href={d.link} key={`title-${i}`} target="_blank" rel="noreferrer">
                         <h4>{d.title}</h4>
                       </a>
                       <p>{d.abstract}</p>
