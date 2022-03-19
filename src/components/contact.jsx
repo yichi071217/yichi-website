@@ -21,10 +21,15 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i>
                   Email
-                </span>{' '} {props.data
+                </span>
+                <a href={`mailto:${props.data
                   ? props.data.email
-                  : 'loading'}
+                  : '/'}`}>{props.data
+                    ? props.data.email
+                    : 'loading'}</a>
+                
               </p>
+              
 
             </div>
           </div>
