@@ -26,7 +26,11 @@ export const About = (props) => {
                       <p key={`${d}-${i}`}>{d}</p>
                     ))
                   : "loading"}</div>
-              <button type="button" className="btn btn-link" data-toggle="modal" data-target="#myModal">
+              <button
+                type="button"
+                className="btn btn-link"
+                data-toggle="modal"
+                data-target="#myModal">
                 閱讀更多
               </button>{' '}
             </div>
@@ -44,13 +48,18 @@ export const About = (props) => {
         role="dialog"
         aria-labelledby="myModalLabel">
         <div className="modal-dialog" role="document">
+          <div className="closeContainer">
+            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
           <div className="modal-content">
 
             <div className="modal-body">
               <h3>{props.data
                   ? props.data.readMore.title
                   : "loading..."}</h3>
-              
+
               <div className="paragraph">{props.data
                   ? props
                     .data

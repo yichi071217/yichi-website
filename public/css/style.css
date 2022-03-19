@@ -599,7 +599,8 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, rgb(92, 169, 251) 0%, rgb(99, 114, 255) 100%);;
+  background: linear-gradient(to right, rgb(92, 169, 251) 0%, rgb(99, 114, 255) 100%);
+  ;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -633,10 +634,10 @@ header .intro-text {
 
 #contact .contact-item {
   margin: 20px 0;
-  
+
 }
 
-#contact .contact-item p{
+#contact .contact-item p {
   font-size: large;
 }
 
@@ -660,7 +661,7 @@ header .intro-text {
 }
 
 #contact .facebook {
-  
+
   margin-bottom: 2em;
 }
 
@@ -705,6 +706,22 @@ header .intro-text {
   border-bottom: 2px solid #608dfd;
 }
 
+#myModal .closeContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 4em;
+  z-index: 9999;
+}
+
+#myModal .close {
+  margin: 0.5em;
+  font-size: xx-large;
+}
+
+#myModal .modal-body {
+  padding: 35px;
+}
 
 
 @media (max-width: 420px) {
