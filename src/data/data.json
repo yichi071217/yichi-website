@@ -142,25 +142,41 @@
     
     
   ],
-  "Team": [{
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+  "Team": [
+    {
+      "img": "img/team/育.png",
+      "name": "蔡育承",
+      "job": "創辦人"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/team/沛.png",
+      "name": "蔡沛原",
+      "job": "共同創辦人"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/朱.png",
+      "name": "朱志國",
+      "job": "技術經理"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/余.png",
+      "name": "余懿珊",
+      "job": "專案經理"
+    },
+    {
+      "img": "img/team/廖.png",
+      "name": "廖莉庭",
+      "job": "前端工程師"
+    },
+    {
+      "img": "img/team/張.png",
+      "name": "張正鴻",
+      "job": "工程師"
+    },
+    {
+      "img": "img/team/黃.png",
+      "name": "黃柏雄",
+      "job": "視覺設計師"
     }
   ],
   "Contact": {

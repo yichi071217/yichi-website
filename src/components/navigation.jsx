@@ -51,6 +51,11 @@ export const Navigation = (props) => {
                 相關報導
               </a>
             </li>
+            <li>
+              <a href='#team' className='page-scroll'>
+                團隊成員
+              </a>
+            </li>
             {/* <li>
               <a href='#team' className='page-scroll'>
                 聯絡我們

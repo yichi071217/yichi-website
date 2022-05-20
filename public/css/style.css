@@ -565,10 +565,15 @@ header .intro-text {
   color: #666;
 }
 
+/* Team Section */
+#Team {
+  padding: 100px 0;
+}
+
 /* Contact Section */
 #contact {
   padding: 75px 0 60px;
-  background: #fff;
+  background: #f6f6f6;
   color: #000;
 }
 
